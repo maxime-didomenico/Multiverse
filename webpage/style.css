@@ -93,3 +93,23 @@ main h1 {
 .games a {
     width: 24%; 
 }
+
+@media screen and (min-width: 24.375em) {
+    #description_Team {
+        display: grid;
+        grid-template-columns: repeat(1, 229px);
+        justify-content: center;
+        gap: 180px;
+        padding: 7%;
+    }
+    .games img {
+        width: 50%;
+    }
+    .games button {
+        width: 100%;
+        height: 63px;
+    }
+    .games a {
+        width: 50%;
+    }
+  }
